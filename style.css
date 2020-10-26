@@ -1,0 +1,109 @@
+html {
+  scroll-behavior: smooth;
+  font-family: Helvetica, Arial, sans-serif !important;
+}
+
+body{
+    background-color:lightgray;
+    
+}
+.menu{
+    overflow: hidden;
+    background-color:#0080ff;
+    position:fixed;
+    top: 0;
+    width: 100%;
+    right: 0;
+    
+}
+.menu a {
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px; 
+  }
+.menu a:hover {
+    color:white;
+  }
+.menu li{
+      display: inline;
+  }
+.menu ul{
+    margin-left: 40%;
+}
+.info {
+    padding-top: 60px;
+    padding-left: 100px;
+    padding-right: 100px;
+
+}
+.info h2,.skill h2{
+    
+    border: 1px solid black ;
+    text-align: center;
+    width: 150px;
+    padding: 10px;
+    margin-left: 450px;
+    margin-right: 450px;
+    margin-bottom: 10px;
+    
+    
+}
+img{
+    border-radius: 50%;
+    height: 350px;
+    width: 350px;
+}
+.about{
+    background-color: white;
+    padding: 10px;
+    height: 400;
+    width: 100%;
+    float: left;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.avt{
+    float: left;
+    width: 35%;
+}
+.inf{
+    float: left;
+    width: 65%;
+}
+table{
+    padding: 10px;
+    width: 65%;
+    border-spacing: 10px;
+}
+.inf ul{
+    list-style: none;
+
+}
+.inf li{
+  
+    display: inline;
+    margin-right: 30px;
+}
+.inf .fb{
+    border: 1px solid blue;
+    text-decoration: none;
+    padding: 16px 16px;
+    border-radius: 20%;
+    color:blue;
+}
+.inf .github{
+    border: 1px solid brown ;
+    text-decoration: none;
+    padding: 16px 16px;
+    border-radius: 20%;
+    color: brown;
+}
+
+.skill{
+    float: left;
+    padding-top: 60px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
